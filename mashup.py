@@ -1,9 +1,6 @@
 import csv
 import argparse
-import subprocess
 import time
-import json
-import sys
 import requests
 
 # Depends on omdbtool from https://github.com/bgr/omdb-cli
@@ -71,5 +68,5 @@ with open(args.output,'w') as fout: # Get a handle on the OUTPUT file
 
             # Don't do this more often than every 1 seconds to avoid abusing omdb.
             # If you're a patron (pay them a buck a month) you can comment this out.
-            # time.sleep(1)
+            time.sleep(1)
 
