@@ -20,13 +20,17 @@ Install those through pip and you're through the worst of it.
 
 1. Get an OMDB API key at omdbapi.com. Paste it into mashup.py between the single quotes for the value of apiKey.
 
+    ```
     apiKey = 'yourkeygoeshere'
+    ```
 
 1. Export your data from letterboxd at https://letterboxd.com/settings/data/
 1. Your data will download as a zip file; extract it to somewhere near this script.
 1. Run mashup.py against the file you're interested in supplementing:
 
+    ```
     python3 mashup.py -i watched.csv -o output.csv
+    ```
 
 1. The script will take some time to run depending on the size of your list.
 
