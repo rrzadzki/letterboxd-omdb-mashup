@@ -5,7 +5,7 @@ import requests
 
 # Depends on omdbtool from https://github.com/bgr/omdb-cli
 
-apiKey = '93d7931c' # Your personal apikey from omdb: http://www.omdbapi.com/ to get one
+apiKey = '1a2b3c4d' # Your personal apikey from omdb: http://www.omdbapi.com/ to get one
 
 # These fields from the OMDB results get added to the output
 omdbFields = [
